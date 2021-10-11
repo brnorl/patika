@@ -1,13 +1,25 @@
-*{
-    align-items: center;
+div{
+    align-content: center;
+    margin:10rem 0 0 28rem;
 }
-h1,h2,h3
-{
-    margin-left: 35rem;
+div>h3{
+    margin-left: 3rem;
 }
-p{
-    margin-left: 15rem;
+div>input{
+    display: block;
+    margin-left: 2rem;
+    width: 15rem;
 }
-li{
-    margin-left: 35rem;
+div>button{
+    margin: 1rem;
+}
+
+footer{
+    display: block;
+    padding: 1rem;
+    background-color: #f2f2f2;
+   padding-bottom: 20rem;
+}
+footer>p{
+    margin-left: 32rem;
 }
