@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yemek Tarifi</title>
-</head>
-<body>
-    <h1>Kimyonlu Domates Kızartması</h1>
-    <h5>Lezzetli ve sağlıklı atıştırmalıklardan kimyonlu domates kızartması tarifi.</h5>
-    <ul>
-        <li>20 Dakika</li>
-        <li>2-4 Kişilik</li>
-        <li>Sıcak ve Soğuk Meze</li>
-        <li>Kızartma</li>
-    </ul>
-
-    <h3>Malzeme Listesi</h3>
-    <ul>
-        <li>250 g süzme yoğurt</li>
-        <li>4-5 adet domates</li>
-        <li>10 g kimyon</li>
-        <li>10 g kimyon</li>
-        <li>10 g kimyon</li>
-    </ul>
-
-    <h3>Nasıl Yapılır?</h3>
-
-    <ol>
-        <li>Domatesleri iki veya dört parçaya bölüp zeytinyağı ile derin bir tavada kızartın.</li>
-        <li>Bir kabın içinde süzme yoğurdu çırpın ve servis tabağına alın.</li>
-        <li>Domatesler yumuşayıp kızarınca tuzu ve kimyonu ilave edip ocağın altını kapatın.</li>
-        <li>Daha sonra elinizi yakmadan bir çatal ile domateslerin kabuklarını soyun.</li>
-        <li>Hazır olan domatesi tavadaki yağı ile beraber tabaktaki süzme yoğurdun üzerine dökerek servis yapın.</li>
-    </ol>
-
-    <h3>Püf Noktası</h3>
-    <p>Dilerseniz bu tarifi Pınar Beyaz veya Pınar Labne ile deneyebilirsiniz.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>Kodluyoruz Javascript Saat Ödevi</title>
+  </head>
+  <body class="bg-dark">
+    <div class="text-center">
+      <img
+        src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+        alt=""
+        class="rounded"
+      />
+      <div class="text1 text-center">
+        Merhaba, <strong><span id="myName"></span></strong>! Hoş geldin!
+      </div>
+      <div id="myClock" class="clock" onload="showTime()"></div>
+      <div class="text2 text-center">
+        tarihinde
+        <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+        Javascript bölümü 1. Ödevindesiniz.
+      </div>
+    </div>
+    <script src="js/clock.js"></script>
+  </body>
 </html>
